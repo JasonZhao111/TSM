@@ -52,7 +52,7 @@ tsm(z, pfs, ind.pfs, os, ind.os, cx.ind, cx.to.ind,
 
 The function outputs a table with the results for each method specified in `methods`. The columns of this table give the treatment effect estimate (`HR estimation`), the 95% confidence intervals (`CI lower` and `CI upper`), and the empirical standard error (`standard error`) for each method specified in `methods`. If `true_HR` was specified as a number, then the `bias` and `mse` columns will compute the bias and mean squared error (MSE) for each method (if `true_HR="unknown"`, then these columns will show all `NA`).
 
-## Example
+## 4. Example
 
 Here, we give an example of the use of the `tsm` main function. This is taken from the `example.R` script in the Code folder above.
 
